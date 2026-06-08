@@ -1,7 +1,7 @@
 # EMADE-NAS
 This is my personal fork of EMADE-NAS, a Neural Architecture Search tool, which I built with a team of other Georgia Tech students. We worked under Dr. Jason Zutty on the [Automated Algorithm Design](https://www.vip-consortium.org/teams/automated-alogrithm-design) VIP project at Georgia Tech. This fork uses EMADE's genetic programming engine to create Neural Network architectures for any dataset. I worked on this project from Spring 2020 to Fall 2021, co-leading the team in my final semester. 
 
-Some of accomplishments while working on this project:
+Some of my accomplishments while working on this project:
 - Integrating pre-trained models like BERT as primitives used to build more sophisticated Neural Nets
 - Refactoring the code for parallel runs on a High Performance Computing Cluster (Grid Engine), speeding up training time by 4x.
 - Refactoring all preprocessing code to deduplicate work, reducing CPU usage by 31%.
