@@ -1,6 +1,11 @@
 # EMADE-NAS
-This is Cameron Whaley's personal repository for EMADE/AAD.
-I worked under Dr. Jason Zutty on the [Automated Algorithm Design](https://www.vip.gatech.edu/teams/vvk) VIP project at Georgia Tech. This fork uses EMADE's genetic programming engine to create Neural Network architectures for any dataset. I worked on this project from Spring 2020 -- Fall 2021, co-leading the team in my final semester. Here is that semester's [final presentation](https://docs.google.com/presentation/d/1kEOKk6Esu_CEE2FzyLRO6HDHYNDNhkNw4JH3fD7fRV0/edit?usp=sharing).
+This is my personal fork of EMADE-NAS, a Neural Architecture Search tool, which I built with a team of other Georgia Tech students. We worked under Dr. Jason Zutty on the [Automated Algorithm Design](https://www.vip-consortium.org/teams/automated-alogrithm-design) VIP project at Georgia Tech. This fork uses EMADE's genetic programming engine to create Neural Network architectures for any dataset. I worked on this project from Spring 2020 to Fall 2021, co-leading the team in my final semester. 
+
+Some of accomplishments while working on this project:
+- Integrating pre-trained models like BERT as primitives used to build more sophisticated Neural Nets
+- Refactoring the code for parallel runs on a High Performance Computing Cluster (Grid Engine), speeding up training time by 4x.
+- Refactoring all preprocessing code to deduplicate work, reducing CPU usage by 31%.
+- Received the President's Undergraduate Research Award in Fall 2021 for my individual contributions.
 
 # EMADE
 Evolutionary Multi-objective Algorithm Design Engine
